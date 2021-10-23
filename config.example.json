@@ -1,4 +1,5 @@
 {
   "clientId": "The Client ID Of The Bot",
-  "token": "The Bot Token"
+  "token": "The Bot Token",
+  "activity": "The Activity For The Bot"
 }
