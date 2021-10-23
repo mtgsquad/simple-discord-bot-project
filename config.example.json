@@ -1,5 +1,5 @@
 {
-  "prefix": "The Prefix You Would Like To Use For The Bot, ex: `/`",
+  "clientId": "The Client ID Of The Bot",
   "token": "The Bot Token",
-  "activity": "The Activity, ex: `example`, Would Be: `Playing example`"
+  "activity": "The Activity For The Bot"
 }
