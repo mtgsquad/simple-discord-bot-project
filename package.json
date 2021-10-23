@@ -1,14 +1,17 @@
 {
-  "name": "principal-bot",
+  "name": "bot",
   "version": "1.0.0",
-  "description": "a bot for just about everything",
-  "main": "index.js",
+  "description": "a Discord.JS bot",
+  "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node node_modules/ttypescript/bin/tsc && node dist/index.js",
     "test": "nodemon"
   },
-  "keywords": [],
+  "keywords": [
+    "discord.js",
+    "slash-commands"
+  ],
   "author": "Jay Jackson",
   "license": "MIT",
   "dependencies": {
