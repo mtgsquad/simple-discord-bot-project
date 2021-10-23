@@ -1,17 +1,27 @@
 {
-  "name": "project",
+  "name": "principal-bot",
   "version": "1.0.0",
-  "description": "a bot",
+  "description": "a bot for just about everything",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node node_modules/ttypescript/bin/tsc && node dist/index.js",
+    "test": "nodemon"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jay Jackson",
+  "license": "MIT",
   "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
     "ascii-table": "0.0.9",
-    "discord.js": "^13.1.0",
-    "glob": "^7.1.7"
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "fast-glob": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "ttypescript": "^1.5.12",
+    "typescript-transform-paths": "^3.3.1"
   }
 }
